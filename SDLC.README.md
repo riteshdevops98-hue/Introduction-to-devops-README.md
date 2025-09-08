@@ -27,6 +27,7 @@ Test: QA (Quality Assurance) team tests the deployed application in a staging en
 
 Deploy: Once validated, the application is promoted to production for customers.
 This cycle continues for each new feature. 
+<img width="1400" height="811" alt="image" src="https://github.com/user-attachments/assets/496981cd-418f-4e44-ba7e-046a463ee9ba" />
 
 4. DevOps Role within SDLC
 
@@ -44,32 +45,48 @@ DevOps accelerates this process by automating the most repetitive and error-pron
 
 The result: faster cycles, higher quality, and more reliable software delivery.
 
-Diagram Sketch: SDLC with DevOps Automation
-   +-----------+      +---------+      +--------+
-   |  PLAN     | ---> | DESIGN  | ---> | BUILD  |
-   | (Feature) |      | Docs    |      | Code & |
-   |           |      |         |      | Commit |
-   +-----------+      +---------+      +--------+
-                                          |
-                                          v
-                                   +-------------+
-                                   | AUTOMATED   |
-                                   | TESTING     |
-                                   | (QA + CI/CD)|
-                                   +-------------+
-                                          |
-                                          v
-                                   +-------------+
-                                   | AUTOMATED   |
-                                   | DEPLOYMENT  |
-                                   | (Pre-prod → |
-                                   |  Production)|
-                                   +-------------+
-                                          |
-                                          v
-                                     +------------+
-                                     | CUSTOMER   |
-                                     +------------+
+6-Diffence Btw HLD and LLD...?
+🔹 HLD (High-Level Design)
+
+What it is: Big picture / architecture of the system.
+
+Focus: Modules, components, data flow, technologies.
+
+Audience: Architects, senior engineers, stakeholders.
+
+Example:
+
+For an E-commerce app, HLD defines:
+
+Modules: User service, Product service, Cart service, Payment service.
+
+Database: MySQL for orders, MongoDB for catalog.
+
+Communication: REST APIs between services.
+
+🔹 LLD (Low-Level Design)
+
+What it is: Detailed design of each component.
+
+Focus: Class diagrams, database schema, method signatures, algorithms.
+
+Audience: Developers, testers.
+
+Example:
+
+For the Cart service in the e-commerce app:
+
+Class: Cart, CartItem, CartService.
+
+Method: addItem(productId, qty), removeItem(productId).
+
+Database schema: cart_table(cart_id, user_id, product_id, qty).
+
+👉 In short:
+
+HLD = What system looks like (blueprint) 🏗️
+
+LLD = How each part works (construction details) ⚙️
 
 How This Works
 
