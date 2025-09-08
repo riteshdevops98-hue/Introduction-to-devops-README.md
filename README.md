@@ -107,4 +107,6 @@ Reliability increased (less human error).
 Teams collaborate better (Dev + Ops working together).
 
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fdf8301e-b0a1-44fd-bedc-53f59d2bae11" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/fdf8301e-b0a1-44fd-bedc-53f59d2bae11" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6a06c87a-d73d-471e-b7ba-0983a73a771b" />
+
