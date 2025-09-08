@@ -1,0 +1,201 @@
+📘 Absolute Prerequisite for Learning DevOps 
+1. Context
+
+Many people learn DevOps tools (Docker, Kubernetes, Jenkins, etc.) but struggle to understand where DevOps fits in real organizations.
+
+As a DevOps engineer:
+
+You do not directly interact with customers.
+
+You get requirements indirectly → passed down through multiple roles in the Software Development Life Cycle (SDLC).
+
+2. Example Setup (Case Study)
+
+Company: Amazon.
+
+Project: Amazon Fresh (grocery delivery).
+
+Scenario: You are hired as a DevOps Engineer for Amazon Fresh.
+
+3. Flow of Requirements (Top to Bottom)
+(1) Customers
+
+The ultimate source of requirements.
+
+Give feedback (positive or negative).
+
+Example:
+
+“Deliver groceries in 15 minutes.”
+
+“Add UPI / Stripe payment gateway.”
+
+(2) Business Analyst (BA)
+
+Role: Connects business + customers + product team.
+
+Collects requirements from customers/market.
+
+Creates BRD (Business Requirement Document).
+
+Example: Writes BRD for “15-min delivery service”.
+
+(3) Product Manager (PM)
+
+Role: Sets vision & priorities for product.
+
+Decides what to implement first.
+
+Example: Chooses to implement 15-min delivery in Q1 instead of payment gateway.
+
+(4) Product Owner (PO)
+
+More technical + tactical than PM.
+
+Breaks PM’s vision into Epics / Features / Actionable items.
+
+Example: For “15-min delivery”:
+
+New UI for delivery slot.
+
+Backend changes for route optimization.
+
+Database setup for pin codes.
+
+(5) Solution Architect (SA)
+
+Deep technical expertise.
+
+Designs HLD (High-Level Design) and LLD (Low-Level Design).
+
+Validates feasibility.
+
+Example: Confirms infra, frameworks, DB design.
+
+(6) Development Team (Devs)
+
+Get HLD/LLD from architect.
+
+Analyze requirements → may need infra support.
+
+Example: Request from DevOps team:
+
+Kubernetes cluster.
+
+Dockerfiles.
+
+Git repositories.
+
+(7) DevOps Engineers
+
+Provide infra, automation, CI/CD pipelines, containerization, deployments.
+
+Work closely with developers + QA + DB admins.
+
+Do not invent features, but enable developers to deliver.
+
+(8) QA Engineers
+
+Test the features, run automation, ensure quality.
+
+(9) Database Admins (DBA)
+
+Handle DB setup & administration.
+
+Sometimes setup is done by DevOps, but management is DBA’s role.
+
+(10) SRE (Site Reliability Engineers)
+
+Post-deployment → ensure reliability, availability, monitoring, alerting.
+
+(11) Technical Writers
+
+Document features, APIs, and updates.
+
+Ensure external/internal users can understand the product.
+
+4. Scrum Team Composition
+
+A Scrum Team usually includes:
+
+Developers
+
+DevOps Engineers
+
+QA Engineers
+
+DB Admins
+
+Sometimes Tech Writers
+
+👉 They work together to complete requirements.
+
+5. Software Development Life Cycle (SDLC)
+Phases:
+
+Planning → Requirements collected (BA).
+
+Analysis → Feasibility & prioritization (PM).
+
+Design → HLD/LLD by Architects.
+
+Implementation → Devs + DevOps + QA build it.
+
+Testing & Integration → QA validates.
+
+Maintenance → SRE ensures reliability.
+
+⚡ SDLC looks simple in diagrams, but in reality involves many roles & iterations.
+
+6. Tooling Example – Jira
+
+Widely used project management tool.
+
+Tasks flow into Jira:
+
+BA / PM / PO → Create Epics, Stories, Tasks.
+
+Developers & DevOps → Pick tasks, update progress.
+
+PM → Track completion status.
+
+7. Visual Flow Diagram
+ Customers
+     ↓
+ Business Analyst (BA) → Creates BRD
+     ↓
+ Product Manager (PM) → Prioritizes
+     ↓
+ Product Owner (PO) → Breaks into Epics/Stories
+     ↓
+ Solution Architect (SA) → HLD + LLD
+     ↓
+ Developers → Need Infra/CI/CD
+     ↓
+ DevOps Engineers → Provide Infra, Pipelines, Automation
+     ↓
+ QA Engineers → Test features
+     ↓
+ DB Admins → Database setup & management
+     ↓
+ SREs → Monitoring, Reliability
+     ↓
+ Technical Writers → Documentation
+
+8. Key Takeaways for DevOps Engineer
+
+You don’t directly get requirements → you support developers.
+
+Your tasks come via Dev → PO → SA → PM → BA → Customers chain.
+
+Typical responsibilities:
+
+Provision infra (Kubernetes, Docker, AWS resources).
+
+Automate builds & deployments (CI/CD pipelines).
+
+Maintain repos, environments (Dev, QA, Prod).
+
+Support QA with test automation infra.
+
+Collaborate with DBAs, SREs.
