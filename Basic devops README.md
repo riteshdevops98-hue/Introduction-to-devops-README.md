@@ -110,3 +110,39 @@ Teams collaborate better (Dev + Ops working together).
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/fdf8301e-b0a1-44fd-bedc-53f59d2bae11" />
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6a06c87a-d73d-471e-b7ba-0983a73a771b" />
 
+DevOps Lifecycle Steps & Tools
+Plan
+
+Goal: Define requirements, roadmap, and backlog.
+Tools: Jira, Confluence, GitLab (planning features).
+Code
+
+Goal: Develop application code and manage versions.
+Tools: Git, GitHub, Bitbucket, GitLab.
+Build
+
+Goal: Compile code, package applications, and create build artifacts.
+Tools: Maven, Gradle, Jenkins, CircleCI.
+Test
+
+Goal: Automated and manual testing to ensure quality.
+Tools: Selenium, TestNG, JUnit.
+Release
+
+Goal: Prepare and approve builds for deployment.
+Tools: Jenkins, GitLab CI/CD, CircleCI.
+Deploy
+
+Goal: Deploy applications to production or staging environments.
+Tools: Docker, Kubernetes, Ansible, Terraform.
+Operate
+
+Goal: Manage and maintain the application in production.
+Tools: Ansible, Kubernetes.
+Monitor
+
+Goal: Track performance, logs, and system health.
+Tools: Prometheus, Grafana, ELK Stack.
+
+<img width="882" height="421" alt="image" src="https://github.com/user-attachments/assets/8890d5ea-30ed-4159-bc64-d0eb47966d42" />
+
