@@ -113,36 +113,52 @@ Teams collaborate better (Dev + Ops working together).
 DevOps Lifecycle Steps & Tools
 Plan
 
-Goal: Define requirements, roadmap, and backlog.
-Tools: Jira, Confluence, GitLab (planning features).
+Goal: 
+Define requirements, roadmap, and backlog.
+Tools: 
+Jira, Confluence, GitLab (planning features).
 Code
 
-Goal: Develop application code and manage versions.
-Tools: Git, GitHub, Bitbucket, GitLab.
+Goal:
+ Develop application code and manage versions.
+Tools: 
+Git, GitHub, Bitbucket, GitLab.
 Build
 
-Goal: Compile code, package applications, and create build artifacts.
-Tools: Maven, Gradle, Jenkins, CircleCI.
+Goal:
+ Compile code, package applications, and create build artifacts.
+Tools:
+ Maven, Gradle, Jenkins, CircleCI.
 Test
 
-Goal: Automated and manual testing to ensure quality.
-Tools: Selenium, TestNG, JUnit.
+Goal:
+ Automated and manual testing to ensure quality.
+Tools:
+ Selenium, TestNG, JUnit.
 Release
 
-Goal: Prepare and approve builds for deployment.
-Tools: Jenkins, GitLab CI/CD, CircleCI.
+Goal: 
+Prepare and approve builds for deployment.
+Tools:
+ Jenkins, GitLab CI/CD, CircleCI.
 Deploy
 
-Goal: Deploy applications to production or staging environments.
-Tools: Docker, Kubernetes, Ansible, Terraform.
+Goal: 
+Deploy applications to production or staging environments.
+Tools:
+ Docker, Kubernetes, Ansible, Terraform.
 Operate
 
-Goal: Manage and maintain the application in production.
-Tools: Ansible, Kubernetes.
+Goal: 
+Manage and maintain the application in production.
+Tools:
+ Ansible, Kubernetes.
 Monitor
 
-Goal: Track performance, logs, and system health.
-Tools: Prometheus, Grafana, ELK Stack.
+Goal: 
+Track performance, logs, and system health.
+Tools: 
+Prometheus, Grafana, ELK Stack.
 
 <img width="882" height="421" alt="image" src="https://github.com/user-attachments/assets/8890d5ea-30ed-4159-bc64-d0eb47966d42" />
 
